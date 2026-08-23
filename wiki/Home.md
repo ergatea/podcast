@@ -9,7 +9,7 @@
 - [制作手册](制作手册)
 - [节目生命周期](节目生命周期)
 - [资料与引用规范](资料与引用规范)
-- [贡献者指南](https://github.com/ergatea/Podcast/blob/main/CONTRIBUTING.md)
+- [贡献者指南](https://github.com/ergatea/podcast/blob/main/CONTRIBUTING.md)
 
 ## 编辑部原则
 
