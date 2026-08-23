@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 编辑手册
+    url: https://github.com/ergatea/Podcast/wiki
+    about: 提交前先了解选题、引用和审阅规范

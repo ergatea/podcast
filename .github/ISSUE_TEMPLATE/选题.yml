@@ -1,0 +1,32 @@
+name: 选题提案
+description: 提出一个值得做成节目的问题
+title: "[选题] "
+labels: ["选题", "待讨论"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        谢谢你带来一个问题。请尽量具体，方便编辑部判断它能否发展成一期节目。
+  - type: textarea
+    id: question
+    attributes:
+      label: 核心问题
+      description: 这一期究竟要回答什么？
+    validations:
+      required: true
+  - type: textarea
+    id: why-now
+    attributes:
+      label: 为什么现在值得做
+    validations:
+      required: true
+  - type: textarea
+    id: clues
+    attributes:
+      label: 已有线索与资料
+      description: 可以附链接、数据、书目或潜在嘉宾。
+  - type: textarea
+    id: counterpoint
+    attributes:
+      label: 可能的反方观点
+      description: 哪个观点最可能挑战当前假设？

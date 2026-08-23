@@ -1,0 +1,17 @@
+name: 听众反馈
+description: 补充线索、指出错误或分享听后想法
+title: "[反馈] "
+labels: ["听众反馈"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: 反馈内容
+      description: 请说明涉及哪一期节目或哪一页内容。
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 相关来源
+      description: 如果是事实修订，请附上可以复核的来源。

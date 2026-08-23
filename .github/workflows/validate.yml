@@ -1,0 +1,32 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check required files
+        run: |
+          test -f index.html
+          test -f styles.css
+          test -f README.md
+          test -d .github/ISSUE_TEMPLATE
+      - name: Check HTML references
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          html = Path('index.html').read_text()
+          for path in re.findall(r'(?:href|src)="([^"#]+)', html):
+              if path.startswith(('http://', 'https://', 'mailto:', 'javascript:')):
+                  continue
+              if not Path(path).exists():
+                  raise SystemExit(f'Missing local reference: {path}')
+          print('Local HTML references are valid.')
+          PY
