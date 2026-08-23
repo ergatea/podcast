@@ -40,6 +40,7 @@ h1 em,h2 em { font-family:var(--serif); font-style:normal; font-weight:600; lett
 .episode-body h2 { margin-bottom:15px; font-size:clamp(26px,4vw,44px); line-height:1.2; letter-spacing:-.06em; }
 .episode-body>p:not(.episode-type) { max-width:590px; margin-bottom:24px; color:var(--muted); font-size:14px; line-height:1.8; }
 .episode-meta { display:flex; gap:10px; color:var(--muted); font:500 11px var(--mono); }
+.episode-player { display:block; width:min(100%,560px); height:34px; margin-top:22px; accent-color:var(--ink); }
 .play-button { display:grid; place-items:center; width:60px; height:60px; border:1px solid var(--ink); border-radius:50%; font-size:17px; padding-left:3px; transition:.2s ease; }
 .play-button:hover { color:var(--paper); background:var(--ink); }
 .column-list { border-top:1px solid var(--ink); }
