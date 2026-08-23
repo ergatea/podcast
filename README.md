@@ -6,11 +6,11 @@
 
 ## 入口
 
-- [Podcast 首页](https://ergatea.github.io/Podcast/)
-- [Wiki：编辑手册](https://github.com/ergatea/Podcast/wiki)
-- [Issues：选题与听众反馈](https://github.com/ergatea/Podcast/issues)
-- [Pull requests：脚本与文稿审阅](https://github.com/ergatea/Podcast/pulls)
-- [Actions：自动检查与发布](https://github.com/ergatea/Podcast/actions)
+- [Podcast 首页](https://ergatea.github.io/podcast/)
+- [Wiki：编辑手册](https://github.com/ergatea/podcast/wiki)
+- [Issues：选题与听众反馈](https://github.com/ergatea/podcast/issues)
+- [Pull requests：脚本与文稿审阅](https://github.com/ergatea/podcast/pulls)
+- [Actions：自动检查与发布](https://github.com/ergatea/podcast/actions)
 
 ## 一期节目的最小流程
 
