@@ -14,6 +14,11 @@
 
 ## 一期节目的最小流程
 
+### EP.001：美债回购为何引爆金价
+
+- [在线收听 / 下载音频](https://github.com/ergatea/podcast/releases/download/v0.1.0/default.m4a)
+- [本期制作记录](https://github.com/ergatea/podcast/issues/1)
+
 1. 用 `选题` Issue 描述问题、线索与希望回答的核心问题。
 2. 讨论通过后，建立 `episode/NNN-topic` 分支。
 3. 以 Pull Request 提交资料卡、节目提纲和文稿。
